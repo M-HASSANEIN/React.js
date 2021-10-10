@@ -1,11 +1,18 @@
-/* function Toto({ name, children }) {
-     console.log(props)
+
+///function to return 
+
+function Toto({ name, children }) {
+    console.log(props)
     return <div>
         <h1>welcome {name}</h1>
         <p>{children}</p>
     </div>
 
-} */
+}
+ReactDOM.render(<Toto name="tito" >koko could you please </Toto>, document.querySelector("#app"))
+
+///composent react with props
+
 class Toto extends React.Component {
     constructor(props) {
         super(props)
@@ -23,5 +30,4 @@ class Toto extends React.Component {
 
 
 ReactDOM.render(<Toto name="tito" >koko could you please </Toto>, document.querySelector("#app"))
-
 
